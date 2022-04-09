@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 80vh;
+    background-image: url('https://www.itl.cat/pngfile/big/327-3274460_web-development.jpg');
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav a{
+    color: #bababa;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+    border-bottom: 1px solid #bababa;
+}
+
+header .principal {
+    margin-top: 40px;
+}
+
+header .principal h4{
+    margin-top: -20px;
+    padding: 20px;
+}
+
+.premiere{
+    background-color: #222f32;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.premiere .gauche{
+    width: 60%;
+    margin-right: 300px;
+}
+
+.offre{
+    padding: 30px;
+    background-image: url(https://facileimmo.net/wp-content/uploads/2017/02/luxury-office-space.jpg);
+    background-position: center;
+    color: #fff;
+}
+.offre .cards{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.offre .cards .carte{
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.offre .cards .carte img {
+    height: 60px;
+}
+
+.offre h1, .offre p{
+    text-align: center;
+}
+
+footer{
+    background-color: #18212b;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .socialmedia{
+    display: flex;
+}
+
+footer .socialmedia p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+@media screen and (max-width: 810px) {
+    .premiere .gauche{
+        width: 100%;
+    }
+    .premiere .droite {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .premiere .gauche {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
