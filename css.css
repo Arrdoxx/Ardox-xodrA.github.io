@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    height: 80vh;
+    background-image: url('https://cdn.discordapp.com/attachments/874978222528417842/963774715967729704/ARDOX_2.png');
+    background-position: center;
+    color: #fff;
+}
+
+header nav{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header nav a:hover {
+    color: #fff;
+    border-bottom: #fff solid 2px;
+}
+
+header .principal{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 1.5em;
+}
+
+
+.premiere{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.premiere .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+.second {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.offre{
+    padding: 30px;
+    background-image: url('https://cdn.discordapp.com/attachments/874978222528417842/963774715967729704/ARDOX_2.png');
+    background-position: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+
+.offre .cards{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.offre .cards .carte{
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.offre .cards .carte img {
+    height: 60px;
+}
+
+
+.offre h1, .offre p{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #ffffff;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .socialmedia{
+    display: flex;
+}
+
+footer .socialmedia a{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+footer .socialmedia a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-right: 15px;
+    padding: 5px;
+    border-bottom: rgb(0, 0, 0) solid 2px;
+}
+
+@media screen and (max-width: 810px) {
+    .premiere .gauche{
+        width: 100%;
+    }
+    .premiere .droite {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .premiere .gauche {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
